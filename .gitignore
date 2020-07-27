@@ -1,0 +1,4 @@
+Train/current/
+TrainingDataset/Annotations/
+TrainingDataset/Images/
+Models/ssd_mobilenet_v2_coco/
