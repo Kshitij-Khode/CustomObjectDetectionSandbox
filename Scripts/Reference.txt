@@ -1,0 +1,2 @@
+python /opt/intel/openvino/deployment_tools/model_optimizer/mo_tf.py --input_model Train/final/frozen_inference_graph.pb  --tensorflow_object_detection_api_pipeline_config Train/final/pipeline.config --transformations_config=/opt/intel/openvino/deployment_tools/model_optimizer/extensions/front/tf/ssd_v2_support.json
+./object_detection_sample_ssd -i ./Eval/TestImages/image10.jpg -m ./Train/final/frozen_inference_graph.xml -d CPU
